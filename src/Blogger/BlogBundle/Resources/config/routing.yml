@@ -1,0 +1,9 @@
+#blogger_blog_homepage:
+#    path:     /
+#    defaults: { _controller: BloggerBlogBundle:Default:index }
+
+BloggerBlogBundle_homepage:
+    path:     /
+    defaults: { _controller: "BloggerBlogBundle:Page:index" }
+    requirements:
+         methods:  GET
